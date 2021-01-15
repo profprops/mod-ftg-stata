@@ -5,7 +5,7 @@ from asyncio import sleep
 @loader.tds
 class FullChatStataMod(loader.Module):
   "Полная статистика чата"
-  strings = {'name": "Full ChatStata"}
+  strings = {"name": "Full ChatStata"}
   @loader.owner
   async def fullstatacmd(self, msg):
           await msg.edit("Инициализация...")
