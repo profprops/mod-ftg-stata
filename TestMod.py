@@ -19,7 +19,7 @@ class TestMod(loader.Module):
 		await message.edit("Module")
 		await sleep(1)
 		await message.edit("Module ")
-		await.sleep(1)
+		await sleep(1)
 		await message.edit("Module b")
 		await sleep(1)
 		await message.edit("Module by")
